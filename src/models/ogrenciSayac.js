@@ -8,7 +8,7 @@ const ogrencisayac = db.define('ogrencisayac', {
         defaultValue: 0
     },
 }, {
-    timestamps: false
+    // timestamps: false
 })
 
 module.exports = ogrencisayac

@@ -12,7 +12,7 @@ const Bolum = db.define('bolum', {
 
     },
 }, {
-    timestamps: false
+    // timestamps: false
 })
 
 module.exports = Bolum

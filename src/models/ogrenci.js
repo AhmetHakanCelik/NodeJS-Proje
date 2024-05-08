@@ -26,7 +26,7 @@ const Ogrenci = db.define('ogrenci', {
     }
 
 }, {
-    timestamps: false
+    //timestamps: false
 })
 
 Ogrenci.belongsTo(Bolum, { foreignKey: 'dept_id', onDelete: 'cascade' })
